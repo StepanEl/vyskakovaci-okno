@@ -9,6 +9,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: relative;
+  left: 200px
 }
 
 button {
@@ -20,11 +22,19 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  right: 0;
+  
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+
+
 }
 
 /* sem přijdou tvoje styly */
